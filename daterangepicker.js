@@ -997,7 +997,7 @@ window.H = window.H || {
 			H.Trace( arguments );
 			var currentMonth = selected.month();
 			var currentYear = selected.year();
-			var maxYear = (maxDate && maxDate.year()) || (currentYear + 5);
+			var maxYear = (maxDate && maxDate.year()) || (currentYear + 50) ;
 			var minYear = (minDate && minDate.year()) || (currentYear - 50);
 			
 			var monthHtml = '<select class="ui compact selection dropdown monthselect">';
