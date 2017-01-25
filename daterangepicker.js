@@ -1164,7 +1164,7 @@ window.H = window.H || {
 					for( i = 0; i<60; i += this.timePickerIncrement ) {
 						var numbr = i;
 						if( numbr<10 ) numbr = '0' + numbr;
-						else html += '<option value="' + i + '" ' + (i==selected.second() ? 'selected="selected"' : '') + '>' + numbr + '</option>';
+						html += '<option value="' + i + '" ' + (i==selected.second() ? 'selected="selected"' : '') + '>' + numbr + '</option>';
 					}
 					
 					html += '</select>';
